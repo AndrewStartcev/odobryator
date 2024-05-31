@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Шаг 1 из 3. Контактные данные - Одобрятор мгновенно доставит деньги!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main class="form-page">
+    <div class="container form-controls">
+      <div class="form-controls__item">Вы оформляете:</div>
+      <div class="form-controls__item">Сумма: <b>100 000₽</b></div>
+      <div class="form-controls__item">Ставка: <b>от 0%</b></div>
+      <div class="form-controls__item">Срок: <b>от 30 до 365 дней</b></div>
+    </div>
+    <div class="form-progress">
+      <div class="container form-progress__header">
+        <div class="form-progress__title">
+          Вероятность одобрения кредита:
+        </div>
+        <div class="form-progress__numbers"><b>18%</b></div>
+        <div class="form-progress__bonus">Получите +40% за 1-й шаг</div>
+      </div>
+      <div class="container form-progress__item">
+        <div class="progress">
+          <div class="progress_over" style="width:40%"></div>
+          <div class="progress_load" style="width:18%"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container form-container form">
+      <h1>Шаг 1 из 3. <br> Контактные данные</h1>
+      <div class="form__wrapper">
+        <div class="form__main">
+          <div class="form__item">
+            <label class="form__label">
+              <span class="form__name">Номер телефона</span>
+            </label>
+            <input type="tel" class="form__input" placeholder="+7 (___) ___ __-__">
+          </div>
+          <div class="form__item">
+            <label class="form__label">
+              <span class="form__name">Email</span>
+              <span class="form__bonus">+ 20% к одобрению</span>
+            </label>
+            <input type="email" class="form__input" placeholder="Для получения документов">
+          </div>
+          <div class="form__checboxs_mobile"></div>
+          <button type="submit" class="btn form__btn">Продолжить</button>
+        </div>
+        <div class="form__checboxs" >
+          <label for="policy" class="form__checbox checkbox" data-da='.form__checboxs_mobile,1024,first'>
+            <input type="checkbox" name="policy" id="policy" class="checkbox-item" checked="">
+            <p class="checkbox-text">
+              <span>
+                Заполняя заявку на сайте вы даете согласие со следующими условиями: Подтверждаю, что мне есть 18 лет, <a href="#">Публичная оферта</a> и
+                <a href="#">действующие тарифы</a>, <a href="#">Политика обработки персональных данных</a>, <a href="#">Согласие на обработку персональных данных</a>.</span>
+            </p>
+          </label>
+          <label for="policy2" class="form__checbox checkbox" data-da='.form__checboxs_mobile,1024,last'>
+            <input type="checkbox" name="policy2" id="policy2" class="checkbox-item" checked="">
+            <p class="checkbox-text">
+              <span>
+                Заполняя заявку на сайте вы даете согласие со следующими условиями: <a href="#">Соглашение о хранении учётных данных владельца карт</a>,
+                <a href="#">Соглашение на применение Рекуррентных платежей</a>. Подтверждаю, что не являюсь получателем единовременных и/или регулярных
+                денежных выплат, предусмотренных Указами Президента РФ. Вы подтверждаете, что не являетесь мобилизованным или
+                действующим военнослужащим Армии РФ.
+            </p>
+          </label>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

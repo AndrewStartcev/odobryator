@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Одобрятор мгновенно доставит деньги!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="main-page">
+    <header class="header">
+      <div class="container header__wrapper">
+        <a href="#" class="header__logo">
+          <img src="img/logo.svg" alt="Одобрятор">
+        </a>
+        <div class="header__menu menu">
+          <div class="header__container">
+            <ul class="header__list">
+              <li><a href="#">Как получить</a></li>
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Частые вопросы</a></li>
+            </ul>
+            <a href="#" class="btn header__btn header__btn-mobile">Получить деньги</a>
+          </div>
+        </div>
+        <a href="#" class="btn header__btn">Получить деньги</a>
+        <button class="header__burger">
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="hero__container container">
+        <div class="hero__top">
+          <div class="hero__content">
+            <h1>Одобрятор мгновенно доставит деньги!</h1>
+            <p>Подберем самый выгодный кредит или займ.</p>
+          </div>
+          <div class="hero__numbers">
+            <p>Одобрено займов сегодня:</p>
+            <div class="hero__number">
+              <span>0</span><span>2</span><span>4</span><span>5</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__body">
+          <div class="hero__image">
+            <img src="img/hero.svg" alt="">
+          </div>
+          <div class="hero__form">
+            <h2>Заполните заявку сейчас и получите решение в 14:53</h2>
+            <form action="" class="ui-calc">
+              <div class="ui-calc__item">
+                <div class="ui-calc__header">
+                  <label for="contribution">Сумма займа</label>
+                </div>
+                <div class="ui-calc__input">
+                  <input type="text" id="contribution" readonly="">
+                  <div id="slider-range-contribution"></div>
+                  <div class="ui-calc__footer">
+                    <span>1 000 ₽</span><span>100 000 ₽</span>
+                  </div>
+                </div>
+              </div>
+              <div class="ui-calc__item">
+                <div class="ui-calc__header">
+                  <label for="time">Срок займа</label>
+                </div>
+                <div class="ui-calc__input">
+                  <input type="text" id="time" readonly="">
+                  <div id="slider-range-time"></div>
+                  <div class="ui-calc__footer">
+                    <span>1 день</span><span>365 дней</span>
+                  </div>
+                </div>
+
+              </div>
+              <button type="submit" class="btn ui-calc__btn">Получить деньги</button>
+            </form>
+          </div>
+        </div>
+        <div class="hero__footer">
+          <div class="hero__item">
+            <img src="img/rouble.svg" alt="">
+            <p>До 1 000 000 рублей</p>
+          </div>
+          <div class="hero__item">
+            <img src="img/online.svg" alt="">
+            <p>В режиме онлайн</p>
+          </div>
+          <div class="hero__item">
+            <img src="img/min.svg" alt="">
+            <p>За 15 минут</p>
+          </div>
+          <div class="hero__item">
+            <img src="img/credit.svg" alt="">
+            <p>С любой кредитной историей</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

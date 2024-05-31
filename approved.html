@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Шаг 1 из 3. Контактные данные - Одобрятор мгновенно доставит деньги!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main class="form-page">
+    <div class="form-page__label">
+      <div class="container">
+        <h1>Валентина Семенова,<br> Ваша заявка одобрена сервисом!</h1>
+      </div>
+    </div>
+    <div class="container form-container form">
+      <h2>Проверка подлинности карты.</h2>
+      <p>Укажите корректные данные карты. Мы спишем и вернём 1 рубль для её проверки.</p>
+      <div class="form__wrapper">
+        <div class="form__main">
+          <div class="form__item form__item_col-3">
+            <label class="form__label">
+              <span class="form__name">Номер карты</span>
+            </label>
+            <input type="text" class="form__input form__input-3p" name="card_number" placeholder="1234567890">
+          </div>
+          <div class="form__item form__item_col-3">
+            <label class="form__label">
+              <span class="form__name">Срок действия</span>
+            </label>
+            <input type="text" class="form__input" name="expiry_date" placeholder="Срок действия">
+          </div>
+          <div class="form__item form__item_col-3">
+            <label class="form__label">
+              <span class="form__name">CVV</span>
+            </label>
+            <input type="text" class="form__input" name="cvv" placeholder="CVV">
+          </div>
+          <div class="form__info">
+            <p>Данные вашей банковской карты надежно защищены. Вся информация будет зашифрована по стандарту PCI DSS.</p>
+          </div>
+          <button type="submit" class="btn form__btn">Продолжить</button>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

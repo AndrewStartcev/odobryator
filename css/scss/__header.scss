@@ -1,0 +1,204 @@
+.header {
+	padding: 7px 0;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 15px;
+	}
+
+	&__logo {
+		max-width: 200px;
+		width: 100%;
+		position: relative;
+		&::after {
+			content: '';
+			display: block;
+			width: 212px;
+			height: 16px;
+			position: absolute;
+			top: 110%;
+			left: 0;
+			background: url("data:image/svg+xml,%3Csvg width='200' height='18' viewBox='0 0 200 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.4' clip-path='url(%23clip0_2859_5890)' filter='url(%23filter0_d_2859_5890)'%3E%3Cpath d='M2.65889 11.0764L8.765 4.32939C9.98624 2.97999 11.5128 2.41774 13.0393 2.41774C14.8711 2.41774 16.6012 3.31734 17.8224 5.00409L21.5879 10.2893C23.2162 12.5383 25.5568 13.7752 27.9993 13.7752C30.0347 13.7752 32.1718 12.8756 33.6983 11.1889L39.8044 4.44184C41.0257 3.09244 42.5522 2.53019 44.0788 2.53019C45.9106 2.53019 47.6406 3.42979 48.8619 5.11655L52.6273 10.4017C54.2556 12.6507 56.5963 13.8877 59.0387 13.8877C61.0741 13.8877 63.2112 12.9881 64.7378 11.3013L70.8439 4.5543C72.0651 3.20489 73.5916 2.64264 75.1182 2.64264C76.95 2.64264 78.6801 3.54225 79.9013 5.229L83.6667 10.5142C85.295 12.7632 87.6357 14.0001 90.0782 14.0001C92.1135 14.0001 94.2507 13.1005 95.7772 11.4138L101.883 4.66675C103.41 2.98 104.936 2.3053 106.463 2.3053C108.295 2.3053 110.025 3.2049 111.246 4.89165L115.113 10.1768C116.742 12.4258 119.082 13.6628 121.525 13.6628C123.56 13.6628 125.697 12.7632 127.224 11.0764L133.33 4.3294C134.551 2.98 136.078 2.3053 137.604 2.3053C139.436 2.3053 141.166 3.2049 142.387 4.89165L146.153 10.1768C147.781 12.4258 150.122 13.6628 152.564 13.6628C154.599 13.6628 156.737 12.7632 158.263 11.0764L164.369 4.3294C165.692 2.98 167.219 2.3053 168.745 2.3053C170.577 2.3053 172.307 3.2049 173.528 4.89166L174.75 6.69086L177.294 10.1768C178.922 12.4258 181.263 13.6628 183.705 13.6628C185.741 13.6628 187.878 12.7632 189.404 11.0764L195.51 4.32941L194.188 2.64265L188.081 9.38967C186.86 10.7391 185.334 11.3013 183.807 11.3013C181.975 11.3013 180.245 10.4017 179.024 8.71497L175.259 3.4298C173.528 1.1808 171.188 0.0562958 168.745 0.0562956C166.71 0.0562955 164.573 0.955897 163.046 2.64265L156.94 9.38967C155.719 10.7391 154.192 11.3013 152.666 11.3013C150.834 11.3013 149.104 10.4017 147.883 8.71496L144.117 3.4298C142.489 1.1808 140.047 0.0562932 137.604 0.056293C135.569 0.0562928 133.432 0.955895 131.905 2.64265L125.799 9.38966C124.578 10.7391 123.051 11.3013 121.525 11.3013C119.693 11.3013 117.963 10.4017 116.742 8.71496L112.976 3.4298C111.348 1.18079 108.905 0.0562906 106.463 0.0562903C104.428 0.0562902 102.29 0.955892 100.764 2.64265L94.6578 9.38966C93.4365 10.7391 91.91 11.3013 90.3835 11.3013C88.5516 11.3013 86.8216 10.4017 85.6003 8.71496L81.8349 3.4298C80.2066 1.18079 77.8659 -0.0561623 75.4235 -0.0561626C73.3881 -0.0561627 71.251 0.843439 69.7244 2.53019L63.6183 9.27721C62.3971 10.6266 60.8706 11.1889 59.344 11.1889C57.5122 11.1889 55.7821 10.2893 54.5609 8.60251L50.7955 3.31734C49.0654 1.18079 46.623 0.0562853 44.2823 0.0562851C42.2469 0.0562849 40.1098 0.955887 38.5832 2.64264L32.4771 9.38966C31.2559 10.7391 29.7294 11.3013 28.2028 11.3013C26.371 11.3013 24.6409 10.4017 23.4197 8.71495L19.5525 3.54224C17.9242 1.18079 15.4817 0.0562826 13.1411 0.0562824C11.1057 0.0562822 8.96855 0.955884 7.44203 2.64264L1.33591 9.38965L2.65889 11.0764Z' fill='url(%23paint0_linear_2859_5890)'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_2859_5890' x='0' y='0' width='201' height='20' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dx='2' dy='2'/%3E%3CfeGaussianBlur stdDeviation='1'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_2859_5890'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_2859_5890' result='shape'/%3E%3C/filter%3E%3ClinearGradient id='paint0_linear_2859_5890' x1='210.062' y1='0.283138' x2='202.135' y2='48.5465' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0.390625' stop-color='%23BBDDCC'/%3E%3Cstop offset='1' stop-color='%2388DDEE'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_2859_5890'%3E%3Crect width='16' height='197' fill='white' transform='translate(197) rotate(90)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A") center center / contain no-repeat;
+		}
+		img {
+			width: 100%;
+		}
+	}
+
+	&__list {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		list-style: none;
+		gap: 45px;
+		li {
+			a {
+				color: #003355;
+				@media (any-hover: hover) {
+					&:hover {
+						color: lighten($color: #003355, $amount: 10);
+					}
+				}
+				&:active {
+					color: darken($color: #003355, $amount: 10);
+				}
+			}
+		}
+	}
+
+	&__burger {
+		cursor: pointer;
+		display: none;
+		background: transparent;
+		border: none;
+		box-shadow: none;
+		position: relative;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: flex-end;
+		gap: 6px;
+		transition: all 0.5s ease;
+		&::after,
+		&::before {
+			content: '';
+		}
+		&::after,
+		&::before,
+		span {
+			display: block;
+			width: 32px;
+			height: 4px;
+			background: #5b6d79;
+			transition: all 0.5s ease;
+		}
+		&::after {
+			width: 20px;
+		}
+		&__close {
+			width: 44px;
+			height: 32px;
+			&::after {
+				transform: rotate(45deg);
+				position: absolute;
+				top: 50%;
+				width: 32px;
+			}
+			&::before {
+				transform: rotate(-45deg);
+				position: absolute;
+				top: 50%;
+				width: 32px;
+			}
+			span {
+				display: none;
+			}
+		}
+	}
+	&__btn {
+		&-mobile {
+			display: none;
+		}
+	}
+}
+@media (max-width: 1024px) {
+	.header {
+		&__logo {
+			max-width: 156px;
+			&::after {
+				width: 197px;
+			}
+		}
+		&__list {
+			gap: 20px;
+			li {
+				a {
+					font-size: 14px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 750px) {
+	.header {
+		&__logo {
+			max-width: 156px;
+			position: relative;
+			z-index: 66;
+			&::after {
+				width: 197px;
+			}
+		}
+		&__menu {
+			opacity: 0;
+			visibility: hidden;
+			transform: translateX(-120%);
+			transition: all 0.5s ease;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			min-height: 100vh;
+			height: 100%;
+			background: linear-gradient(177deg, #f3ffff 0%, #cfe7db 96%);
+			z-index: 55;
+			&.menu__open {
+				display: flex;
+				opacity: 1;
+				transform: translateX(0);
+				visibility: visible;
+			}
+			&__container {
+				overflow: auto;
+				margin-top: 80px;
+				width: 100%;
+				height: auto;
+				display: flex;
+				flex-direction: column;
+				gap: 20px;
+				padding: 20px;
+				padding-bottom: 40px;
+			}
+			&__list {
+				margin: 0;
+				padding: 0;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+		&__container {
+			overflow: auto;
+			margin-top: 100px;
+			width: 100%;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			padding: 20px;
+			padding-bottom: 40px;
+		}
+		&__list {
+			margin: 0;
+			padding: 0;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		&__btn {
+			display: none;
+			&-mobile {
+				display: flex;
+				margin-top: auto;
+			}
+		}
+		&__burger {
+			display: flex;
+			position: relative;
+			z-index: 66;
+		}
+	}
+}
